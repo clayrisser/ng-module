@@ -2,8 +2,8 @@
 
 AngularJS artifactory template
 
-| Command     | Description            |
-| ----------- | ---------------------- |
-| `npm start` | Run development server |
-| `npm build` | Build artifactory      |
-| `npm test`  | Run unit tests         |
+| Command         | Description            |
+| --------------- | ---------------------- |
+| `npm start`     | Run development server |
+| `npm run build` | Build artifactory      |
+| `npm run test`  | Run unit tests         |
