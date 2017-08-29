@@ -1,0 +1,32 @@
+{
+  "name": "ng-module",
+  "version": "1.0.0",
+  "description": "Describe ng-module here",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "start": "node ./node_modules/nwb/lib/bin/nwb.js serve",
+    "build": "node ./node_modules/nwb/lib/bin/nwb.js build",
+    "build-demo": "node ./node_modules/nwb/lib/bin/nwb.js build-demo",
+    "clean": "node ./node_modules/nwb/lib/bin/nwb.js clean-module",
+    "test": "node ./node_modules/nwb/lib/bin/nwb.js test",
+    "test:coverage": "node ./node_modules/nwb/lib/bin/nwb.js test --coverage",
+    "test:watch": "node ./node_modules/nwb/lib/bin/nwb.js test --server"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "^1.6.6",
+    "ngtemplate-loader": "^2.0.1",
+    "nwb": "https://github.com/jamrizzi/nwb.git#release",
+    "nwb-sass": "^0.8.1"
+  },
+  "author": "",
+  "homepage": "",
+  "license": "MIT",
+  "repository": ""
+}
